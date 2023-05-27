@@ -1,7 +1,0 @@
-{
-    "mongoURI":
-        "mongodb+srv://ljfrotton:smvsOhdOla3RD5PS@cluster1.aoab6n1.mongodb.net/?retryWrites=true&w=majority",
-    "PORT":
-    "5000"
-
-}
