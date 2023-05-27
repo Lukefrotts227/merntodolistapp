@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import '../index.css';
+import '../App.css'
+import './styles/style1.css'; 
 
 import { useNavigate } from 'react-router-dom';
 
 
-function MainPage(){
+function Signup(){
 
     return(
         <div>
-            <header> Hello There this is me trying this out</header>
+            <h2 className ="signup" > SignUP </h2>
         </div>
     );
 }
 
 
-export default MainPage
+export default Signup;

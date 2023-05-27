@@ -1,13 +1,10 @@
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
 
-.title{
-    background-color:chartreuse
-}
+.signup{
 
-
-div{
-    background-color: bisque;
+    background-color: blanchedalmond;
 }

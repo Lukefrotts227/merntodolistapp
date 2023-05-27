@@ -2,16 +2,18 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 
-import MainPage from './pages/mainpage';
+import Signup from './pages/signup';
 
 
 function App(){
 
   return (
+   
     <Router>
-      <div>
+      <div className = "title">
+        <h1 className = "title"> This is my serious title </h1>
         <Routes>
-          <Route exact path = '/' element={<MainPage/>}></Route>
+          <Route exact path = '/' element={<Signup/>}></Route>
         </Routes>
       </div>
     </Router>
