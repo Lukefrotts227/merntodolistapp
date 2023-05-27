@@ -1,0 +1,33 @@
+{
+  "name": "inistnance1",
+  "version": "1.0.0",
+  "description": "My mern application ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukefrotts227/merntodolistapp.git"
+  },
+  "author": "Lukas Frotton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lukefrotts227/merntodolistapp/issues"
+  },
+  "homepage": "https://github.com/Lukefrotts227/merntodolistapp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "validation": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
