@@ -5,6 +5,12 @@
 
 
 .signup{
+    background-color: black;
+    color: aqua
+}
 
-    background-color: blanchedalmond;
+.signup:hover{
+
+    color:yellow; 
+    background-color: mediumpurple;
 }

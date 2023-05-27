@@ -11,7 +11,6 @@ function App(){
    
     <Router>
       <div className = "title">
-        <h1 className = "title"> This is my serious title </h1>
         <Routes>
           <Route exact path = '/' element={<Signup/>}></Route>
         </Routes>
