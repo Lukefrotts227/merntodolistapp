@@ -4,13 +4,17 @@
 @import 'tailwindcss/utilities';
 
 
-.signup{
+.signup {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rosybrown;
+    }
+    
+    h2 {
+    color: red;
+    font-weight: bolder;
     background-color: black;
-    color: aqua
-}
-
-.signup:hover{
-
-    color:yellow; 
-    background-color: mediumpurple;
-}
+    text-align: center;
+    padding: 10px;
+    }

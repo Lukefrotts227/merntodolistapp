@@ -3,8 +3,22 @@ const Schema = mongoose.Schema;
 
 const PersSchema = new mongoose.Schema({
     name: {
-        type: String, 
+        type: String
     },
+
+    username: {
+        type: String, 
+        required: true
+    }, 
+
+    new_date: {
+        type : Date, 
+        default: Date.now
+    }
+
+    
+
+
 
 
     
