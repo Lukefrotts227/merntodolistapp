@@ -10,8 +10,8 @@ import { useNavigate } from 'react-router-dom';
 function Signup(){
 
     return(
-        <div classname = "signup" id = "container">
-            <h2 className ="signup" id = "h1-1" > Sign UP </h2>
+        <div className = 'signup'>
+            <h2 className = 'signup-h2' > Signup </h2>
         </div>
     );
 }

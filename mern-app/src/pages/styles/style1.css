@@ -7,14 +7,20 @@
 .signup {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    background-color: rosybrown;
+    padding: 10px 5px;
+    background-color: black;
+   
     }
     
     h2 {
-    color: red;
+    color: White;
     font-weight: bolder;
+    font-size: 34px;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+   
+
     }
+    
