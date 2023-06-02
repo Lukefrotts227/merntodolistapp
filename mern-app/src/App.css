@@ -2,9 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
-.title{
-
-    background-color: white; 
+html { 
+    background-color: black
 }
-

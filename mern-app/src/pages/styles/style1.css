@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 5px;
-    background-color: black;
+    background : radial-gradient(red, black); 
    
     }
     
