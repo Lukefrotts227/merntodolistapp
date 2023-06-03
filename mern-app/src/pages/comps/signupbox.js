@@ -27,12 +27,16 @@ function SignUpBox(){
         }
 
         resetScreen(); 
-        
+
 
     }
 
     return(
         <div className = "singupbox">
+
+            <form onSubmit ={handleSubmit}>
+                
+            </form>
 
 
         </div>
