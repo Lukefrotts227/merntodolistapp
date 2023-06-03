@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-
+import SignUpBox from './comps/signupbox';
 import './styles/style1.css'; 
 
 import { useNavigate } from 'react-router-dom';
