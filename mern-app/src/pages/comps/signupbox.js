@@ -26,6 +26,9 @@ function SignUpBox(){
             console.log(error);
         }
 
+        resetScreen(); 
+        
+
     }
 
     return(
