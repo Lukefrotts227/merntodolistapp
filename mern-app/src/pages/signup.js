@@ -12,6 +12,7 @@ function Signup(){
     return(
         <div className = 'signup'>
             <h2 className = 'signup-h2' > Signup </h2>
+            <SignUpBox/>
         </div>
     );
 }
