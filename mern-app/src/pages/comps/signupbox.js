@@ -34,8 +34,27 @@ function SignUpBox(){
     return(
         <div className = "singupbox">
 
-            <form onSubmit ={handleSubmit}>
+            <form className = "signupbox-form-1" onSubmit ={handleSubmit}>
+                <label className = "signupbox-label-1">Email</label>
+                <input classname = "signupbox-input-1"
+                type = "text"
+                name = "email"
+                value = {email}
+                ongChange = {(e) => setEmail(e.target.value)}
+                required
+                />
+                <label className = "signupbox-label-2">Password</label>
+                <input classname = "signupbox-input-2"
+                type = "password"
+                name = "password"
+                value = {password}
+                ongChange = {(e) => setPassword(e.target.value)}
+                required
+                />
+
+                <button className ="sinupbox-button-1" type = "submit" >Signup</button>
                 
+
             </form>
 
 
