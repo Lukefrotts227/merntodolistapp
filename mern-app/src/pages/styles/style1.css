@@ -1,26 +1,32 @@
 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-
-.signup {
+  .signup {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;    
+    align-items: center;
     padding: 10px 5px;
-    background : radial-gradient(red, black); 
-   
-    }
-    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: radial-gradient(red, black);
+  }
     h2 {
-    color: White;
-    font-weight: bolder;
-    font-size: 34px;
-    background-color: black;
-    text-align: center;
-    
-    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    text-shadow: 19px 4px 3px; 
+        color: white;
+        font-weight: bolder;
+        font-size: 66px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        text-shadow: 16px 4px 6px rgba(0, 0, 0, 0.5);
 
     }
-    
+
