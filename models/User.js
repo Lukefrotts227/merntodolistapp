@@ -14,3 +14,6 @@ const UserSchema = new Schema({
 
 })
 
+
+const UserModel = mongoose.model("users", UserSchema); 
+module.exprots = UserModel; 
