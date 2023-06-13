@@ -16,3 +16,17 @@ const port = 5000;
 
 connectDB(); 
 
+app.post("/users/createuser", async (req,res) =>{
+    try{
+        const user = req.body; 
+        const newUser = UserModel(user); 
+        await newUser.save(); 
+        res.status(200).json(user); 
+
+    }
+    catch(error){
+        res.status(500).json({message: "could not create user", error:error}); 
+
+    }
+})
+
