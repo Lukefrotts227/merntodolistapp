@@ -7,7 +7,10 @@ function SignUp(){
 
     return(
         <div className = "Signup-container">
-            
+            <h1 className = 'Signup-h1'>
+                SignUp here
+            </h1>
+
         </div>
     );
 }
