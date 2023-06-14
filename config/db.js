@@ -1,7 +1,8 @@
 const mongoose  = require('mongoose');
-const config = require('config');
+const fs = require('fs'); 
+let jsonData = require('./default.json'); 
 
-const db = config.get('mongoURI');
+const db = jsonData['mongoURI']; 
 
 
 
